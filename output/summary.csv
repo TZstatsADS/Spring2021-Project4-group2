@@ -1,0 +1,19 @@
+Model,Data,PS model,Estimation time(s),Squared error
+Stratification (K=5),high-dim,GBM,0.009999752044677734,0.3593
+Regression Adjustment,high-dim,GBM,0.025000572204589844,20.3369
+Strat. + Reg. Adj. (K=3),high-dim,GBM,0.034999847412109375,0.6652
+Stratification (K=8),high-dim(oversampled),GBM,0.018965721130371094,2.7102
+Regression Adjustment,high-dim(oversampled),GBM,0.03299999237060547,20.852
+Strat. + Reg. Adj. (K=3),high-dim(oversampled),GBM,0.03900003433227539,2.1551
+Stratification (K=2),high-dim(SMOTE),GBM,0.007002592086791992,347.8727
+Regression Adjustment,high-dim(SMOTE),GBM,0.05196094512939453,5.7233
+Strat. + Reg. Adj. (K=3),high-dim(SMOTE),GBM,0.056000471115112305,17.2855
+Stratification (K=4),low-dim,GBM,0.0060002803802490234,0.8469
+Regression Adjustment,low-dim,GBM,0.004999876022338867,0.1463
+Strat. + Reg. Adj. (K=8),low-dim,GBM,0.01699995994567871,0.0011
+Stratification (K=7),low-dim(oversampled),GBM,0.014997243881225586,103.4942
+Regression Adjustment,low-dim(oversampled),GBM,0.00500035285949707,0.0604
+Strat. + Reg. Adj. (K=10),low-dim(oversampled),GBM,0.02400064468383789,0.0742
+Stratification (K=5),low-dim(SMOTE),GBM,0.009998798370361328,9.3552
+Regression Adjustment,low-dim(SMOTE),GBM,0.005002498626708984,0.0869
+Strat. + Reg. Adj. (K=2),low-dim(SMOTE),GBM,0.0049991607666015625,0.0869
