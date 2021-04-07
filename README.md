@@ -4,17 +4,18 @@
 
 Term: Spring 2021
 
-+ Team #
-+ Projec title: Lorem ipsum dolor sit amet
++ Team 2
++ Projec title: Causal Inference Algorithms Evaluation
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Wendy Doan (ad3801)
+	+ Yibai Liu (yl4616)
+	+ Shuqi Yu (sy2950)
+	+ Yiwen Fang (yf2560)
+	+ Zhihang Xia (zx2338)
+
 + Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	
-**Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: Wendy initialized the pipeline from data exploration, propensity score (PS) prediction, to ATE estimation; developed basic baseline logistic regression and GBM models for PS prediction, and three base ATE estimation algorithms assigned; prepared and delivered project presentation. Yibai tuned the hyperparameters of GBM and XGboost models for PS prediction; wrapped up functions and procedures to generate one-click pipelines for algorithm evaluation and result reporting; prepared results summary. Shuqi developed resampling methods including random oversampling and SMOTE; organized project descriptions and helped with presentation powerpoint; wrote....
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
