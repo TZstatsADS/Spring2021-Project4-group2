@@ -1,0 +1,37 @@
+Model,Data,PS model,Estimation time(s),Squared error
+Stratification (K=5),high-dim,GBM,0.010004520416259766,0.2212
+Regression Adjustment,high-dim,GBM,0.02800583839416504,20.3369
+Strat. + Reg. Adj. (K=3),high-dim,GBM,0.04899883270263672,0.4916
+Stratification (K=5),high-dim,XGB,0.011000633239746094,0.1792
+Regression Adjustment,high-dim,XGB,0.02899932861328125,20.3369
+Strat. + Reg. Adj. (K=9),high-dim,XGB,0.07103610038757324,0.0664
+Stratification (K=5),high-dim(oversampled),GBM,0.011001348495483398,11.095
+Regression Adjustment,high-dim(oversampled),GBM,0.030998945236206055,17.4686
+Strat. + Reg. Adj. (K=3),high-dim(oversampled),GBM,0.03400135040283203,0.0216
+Stratification (K=4),high-dim(oversampled),XGB,0.007999420166015625,7.7027
+Regression Adjustment,high-dim(oversampled),XGB,0.028032541275024414,19.6681
+Strat. + Reg. Adj. (K=3),high-dim(oversampled),XGB,0.03696870803833008,0.3432
+Stratification (K=3),high-dim(SMOTE),GBM,0.006997108459472656,0.0107
+Regression Adjustment,high-dim(SMOTE),GBM,0.033000946044921875,10.4772
+Strat. + Reg. Adj. (K=3),high-dim(SMOTE),GBM,0.044998884201049805,3.9503
+Stratification (K=8),high-dim(SMOTE),XGB,0.018985271453857422,13.6025
+Regression Adjustment,high-dim(SMOTE),XGB,0.03300046920776367,8.5698
+Strat. + Reg. Adj. (K=9),high-dim(SMOTE),XGB,0.09099984169006348,1.5513
+Stratification (K=3),low-dim,GBM,0.006000041961669922,0.1842
+Regression Adjustment,low-dim,GBM,0.005000114440917969,0.1463
+Strat. + Reg. Adj. (K=4),low-dim,GBM,0.012000322341918945,0.0001
+Stratification (K=4),low-dim,XGB,0.009000062942504883,0.0085
+Regression Adjustment,low-dim,XGB,0.004999637603759766,0.1463
+Strat. + Reg. Adj. (K=6),low-dim,XGB,0.016045331954956055,0.0119
+Stratification (K=6),low-dim(oversampled),GBM,0.011000394821166992,2.9614
+Regression Adjustment,low-dim(oversampled),GBM,0.005999326705932617,0.0461
+Strat. + Reg. Adj. (K=2),low-dim(oversampled),GBM,0.004999399185180664,0.0461
+Stratification (K=3),low-dim(oversampled),XGB,0.006999969482421875,13.9054
+Regression Adjustment,low-dim(oversampled),XGB,0.0060002803802490234,0.0013
+Strat. + Reg. Adj. (K=2),low-dim(oversampled),XGB,0.004998683929443359,0.0013
+Stratification (K=7),low-dim(SMOTE),GBM,0.017998218536376953,2.1691
+Regression Adjustment,low-dim(SMOTE),GBM,0.004998207092285156,0.0506
+Strat. + Reg. Adj. (K=3),low-dim(SMOTE),GBM,0.008000612258911133,0.0107
+Stratification (K=3),low-dim(SMOTE),XGB,0.0070002079010009766,0.1217
+Regression Adjustment,low-dim(SMOTE),XGB,0.0060007572174072266,0.0386
+Strat. + Reg. Adj. (K=3),low-dim(SMOTE),XGB,0.008985280990600586,0.0
