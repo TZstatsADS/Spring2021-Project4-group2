@@ -21,15 +21,15 @@ Term: Spring 2021
 
 **Contribution statement**: 
 
-Wendy: Initialized the pipeline from data exploration, propensity score (PS) prediction, to ATE estimation; developed basic baseline logistic regression and GBM models for PS prediction, and three base ATE estimation algorithms assigned; wrote functions to calcuate ATE scores for stratification, regression adjustment; sketched out anf finalized project report; prepared and delivered project presentation. 
+Wendy: Initialized the pipeline from data exploration, propensity score (PS) prediction, to ATE estimation; developed basic baseline logistic regression and GBM models for PS prediction, and three base ATE estimation algorithms assigned; wrote functions to calcuate ATE scores for stratification, regression adjustment; sketched out and finalized project report; prepared and delivered project presentation. 
 
 Yibai: Tuned the hyperparameters of GBM and XGboost models for PS prediction; wrapped up functions and procedures to generate one-click pipelines for algorithm evaluation and result reporting; prepared results summary. 
 
 Shuqi: Developed resampling methods; organized project descriptions and helped with presentation powerpoint; contributed to final report writing; tried different methods for regression adjustment.
 
-Yiwen: Wrote code of propensity score estimation by boosted stumps (GBM and XGBoost) with/without weight parameters, the algorithm of stratification, and ATE estimations; tuned parameters of GBM to make the best high dim and low dim ATE; helped organize references.
+Yiwen: Finished algorithms of stratification, ATE estimations; contributed in tuning parameters of GBM; helped organize references.
 
-Zhihang: Tuned the hyperparameters of AdaBoost model for propensity score estimation and wrote the function of stratification to compute ATE based on the scores predicted by the AdaBoost model for the datasets.
+Zhihang: Tuned the hyperparameters of AdaBoost model for propensity score estimation, contributed in finishing the function of stratification to compute ATE based on the scores predicted by the AdaBoost model for the datasets.
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
